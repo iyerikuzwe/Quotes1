@@ -5,9 +5,9 @@ form{
   
   }
   #go{
-    background-color: green;
+    background-color: blueviolet;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid grey;
   }
   #go:hover{
     color: white;
