@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 import {Quotes} from '../quotes'
 
 @Component({
@@ -6,6 +6,7 @@ import {Quotes} from '../quotes'
   templateUrl: './quotes.component.html',
   styleUrls: ['./quotes.component.css']
 })
+// @Input() addQuote:addQuote;
 export class QuotesComponent implements OnInit {
  quotes =[
    new Quotes(1,"Education is the most powerful weapon which you can use to change the world.","Nelson"," Mandela",0,0,new Date(2019,29,1)),
