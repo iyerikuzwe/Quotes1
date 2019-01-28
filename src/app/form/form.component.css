@@ -1,11 +1,11 @@
 form{
-    width: 50%;
+    width: 60%;
     color:white;
     text-align: justify;
   
   }
   #go{
-    background-color: blueviolet;
+    background-color: darkturquoise;
     border-radius: 10px;
     border: 2px solid grey;
   }
