@@ -1,11 +1,11 @@
 <div class="container-fluid">
   <div class="jumbotron">
-    <h1 id="title">Deep or Derp</h1>
+    <h1 id="title">Upvote or Downvote</h1>
   </div>
   
   <ul>
     <div *ngFor="let quote of quotes;let i=index" class="items">
-    <li id="listed">"{{quote.name}}" -<em><strong>Posted {{quote.notedDate|dateCount}} day(s) ago.</strong></em></li>
+    <li id="listed">"{{quotes.name}}" -<em><strong>Posted {{quote.notedDate|dateCount}} day(s) ago.</strong></em></li>
     <button (click)='toggleDetails(i)' class="btn btn-info btn-xs"><i class="fa fa-sort"></i></button>&nbsp;
     <button (click)='upvote(i)' class="btn btn-primary btn-xs"><i class="fa fa-thumbs-o-up"></i>{{quote.upvotes}}</button>&nbsp;&nbsp;
     <button (click)='downvote(i)' class="btn btn-danger btn-xs"><i class="fa fa-thumbs-o-down"></i>{{quote.downvotes}}</button>

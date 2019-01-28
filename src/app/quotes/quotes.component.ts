@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import {Quote} from '../quote'
+import {Quotes} from '../quotes'
 
 @Component({
   selector: 'app-quote',
-  templateUrl: './quote.component.html',
-  styleUrls: ['./quote.component.css']
+  templateUrl: './quotes.component.html',
+  styleUrls: ['./quotes.component.css']
 })
-export class QuoteComponent implements OnInit {
+export class QuotesComponent implements OnInit {
  quotes =[
-   new Quote(1,"Never forget what you are, the rest of the world will not. Wear it like armor and it can never be used to hurt you.","Tyrion Lannister","Owen",0,0,new Date(2018,7,10)),
-   new Quote(2,"I have insecurities of course, but I don't hang out with anyone who points them out to me.","Adele","Queen Olive",0,0,new Date(2018,7,10)),
-   new Quote(3,"I enjoy long romantic walks to the fridge.","Gift Lumumba","Annstella",0,0,new Date(2018,7,10)),
+   new Quotes(1,"Education is the most powerful weapon which you can use to change the world.","Nelson"," Mandela",0,0,new Date(2019,29,1)),
+   new Quotes(2,"I have insecurities of course, but I don't hang out with anyone who points them out to me.","Adele","Queen Olive",0,0,new Date(2019,29,1)),
+   new Quotes(3,"Faith is taking the first step even when you don't see the whole staircase.","Martin Luther","King",0,0,new Date(2019,29,1)),
        ];
  toggleDetails(index){
    this.quotes[index].showAuthor=!this.quotes[index].showAuthor;
