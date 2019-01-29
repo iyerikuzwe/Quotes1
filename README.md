@@ -30,7 +30,7 @@
     To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Deployment
-    Enter the link into the url interface and click the prompt.
+    Enter the link(https://iyerikuzwe.github.io/Quotes1/into the url interface and click the prompt.
 ## Contributing
     pull requests are encouraged
 ## Support
