@@ -1,8 +1,7 @@
 #form{
-    width: 60%;
+    width: 40%;
     color:white;
-    text-align: justify;
-  
+    text-align: center;
   }
   #go{
     background-color: darkturquoise;
@@ -11,4 +10,4 @@
   }
   #go:hover{
     color: white;
-  }  
+  }
