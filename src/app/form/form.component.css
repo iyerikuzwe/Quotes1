@@ -1,14 +1,22 @@
-#form{
+/* #form{
     width: 40%;
     color:white;
     text-align: center;
-    height:40%;
-  }
+    height:40%; */
+    
   #go{
     background-color: darkturquoise;
     border-radius: 10px;
     border: 2px solid grey;
   }
   #go:hover{
-    color: white;
+    color: slategrey;
+  }
+  .form-group{
+    width: 1000px;
+    font-size: 16px;
+    background-color: darkkhaki;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #53687E;
+    margin-left:200px;
   }

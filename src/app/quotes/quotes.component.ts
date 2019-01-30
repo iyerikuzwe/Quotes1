@@ -9,7 +9,7 @@ import {Quotes} from '../quotes'
 // @Input() addQuote:addQuote;
 export class QuotesComponent implements OnInit {
  quotes =[
-   new Quotes(1,"Education is the most powerful weapon which you can use to change the world.","Nelson"," Mandela",0,0,new Date(2017,29,1)),
+   new Quotes(1,"Education is the most powerful weapon which you can use to change the world.","Nelson"," Mandela",0,0,new Date(2017,28,1)),
    new Quotes(2,"I have insecurities of course, but I don't hang out with anyone who points them out to me.","Adele","Queen Olive",0,0,new Date(2018,2,1)),
    new Quotes(3,"Faith is taking the first step even when you don't see the whole staircase.","Martin Luther","King",0,0,new Date(2012,29,1)),
    new Quotes(4,"Each life is made up of mistakes and learning, waiting and growing, practicing patience and being persistent.","Billy","Graham",0,0,new Date(2015,6,5)),
@@ -22,7 +22,7 @@ export class QuotesComponent implements OnInit {
    this.quotes[index].upvotes++;
  }
  downvote(index){
-   this.quotes[index].downvotes++;
+   this.quotes[index].downvotes--;
  }
  deleteQuote(isComplete,index){
         if (isComplete){
